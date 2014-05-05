@@ -1,0 +1,4 @@
+backports.ssl-match-hostname==3.4.0.2
+pyserial==2.7
+tornado==3.2
+wsgiref==0.1.2
