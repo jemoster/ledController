@@ -10,7 +10,7 @@ class TricolorLED:
     
     def connect(self, port):
         self.close()
-        self.ser = serial.Serial(port-1)
+        self.ser = serial.Serial(port)
         self.ser.baudrate = 57600
         time.sleep(1)
     
