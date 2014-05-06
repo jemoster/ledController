@@ -21,7 +21,7 @@ def run(queue):
 
     while 1:
         data = queue.get()
-        print(data)
+
         if len(data) == 2:
             if data[0] == u'set':
                 LED.setColor(*data[1])
